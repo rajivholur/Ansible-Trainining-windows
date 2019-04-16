@@ -1,0 +1,6 @@
+---
+# defaults file for roles/win_ad_install
+GUID: "5efb"
+ansible_password: "jVMijRwLbI02gFCo2xkjlZ9lxEA7bm7zgg=="
+ad_domain_name: ad1.5efb.example.opentlc.com
+ansible_password: "jVMijRwLbI02gFCo2xkjlZ9lxEA7bm7zgg=="

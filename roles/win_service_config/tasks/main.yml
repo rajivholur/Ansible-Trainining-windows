@@ -1,0 +1,15 @@
+---
+# tasks file for roles/win_service_config
+
+- name: install chocolatey
+  win_chocolatey:
+      name : chocolatey
+      state: downgrade
+      version: 0.10.11
+
+- name: Install 
+  win_chocolatey:
+      name: "{{package_name}}"
+      params: "{{parameters}}"
+  when: ansible_distribution == "Microsoft Windows Server 2012 R2 Standard"
+

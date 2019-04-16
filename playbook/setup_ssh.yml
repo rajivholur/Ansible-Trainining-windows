@@ -1,0 +1,8 @@
+---
+- name: Install open ssh
+  hosts: windows
+  gather_facts: true
+  become: true
+  roles:
+   - win_service_config
+

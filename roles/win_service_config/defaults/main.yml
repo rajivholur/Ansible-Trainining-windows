@@ -1,0 +1,5 @@
+---
+# defaults file for roles/win_service_config
+
+package_name: "openssh"
+parameters: "/SSHServerFeature"
